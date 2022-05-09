@@ -1,69 +1,104 @@
-.cabecalho {
-    position: absolute;
-    width: 122px;
-    height: 42px;
-    left: 122px;
-    top: 11px;
+*{
+    font-family: Mulish;
 }
-.home{
-    position: absolute;
-width: 54px;
-height: 0px;
-left: 386px;
-top: 48px;
-
-border: 2px solid #007191;
+.cabecalho{
+    width: 1280px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.o hobby{
-    position: absolute;
-width: 66px;
-height: 18px;
-left: 501px;
-top: 28px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-
-color: #007191;
-
+.menu{
+    display:flex;
+    list-style: none;
 }
-.Acervo{
-    position: absolute;
-width: 53px;
-height: 18px;
-left: 631px;
-top: 28px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-
-color: #007191;
-
-
+.menu li{
+    padding-left: 30px;
 }
-.Contato{
-    position: absolute;
-width: 61px;
-height: 18px;
-left: 752px;
-top: 28px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-
-color: #007191;
+.menu a{
+ text-decoration:none;
+ color: #8f8a99;
+ font-size: 18px;
 }
-.banner-texto{
-    font-weight: 300;
+.menu a.link-ativo{
+    color: #1f1534;
+    font-weight: bold;
+}
+.banner01-fundo{
+    background-image:url('imagens/fundo2.png');
+    background-repeat: no-repeat;
+}
+.banner01-conteudo{
+    width: 1280px;
+    margin: 0  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner01-titulo{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner01-paragrafo{
     font-size: 21px;
+    font-weight: 200;
+    color: #707987;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+.botao01{
+    background-color: #458ff6;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 58px;
+}
+.nossos-servicos{
+    width: 1280px;
+    margin: 190px auto;
+    text-align: center;
+}
+
+.servicos-titulo{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 56px;
+
+}
+.divisor{
+    height: 2px;
+    width: 56px;
+    border: 0;
+    background-color: black;
+    margin-bottom: 33px;
+}
+.servicos-paragrafo{
+font-size: 18px;
+color: #707987;
+font-weight: 200;
+line-height: 30px;
+}
+
+.icones-servicos{
+    width: 1280px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(imagens/imagem\ de\ fundo.png);
+background-repeat: repeat;
+background-position: right center;
+padding: 0 20px;
+}
+ 
+.icones-cartao{
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 6px 11px 0px rgba(0,0,0,0,12);
+    
+
 }
